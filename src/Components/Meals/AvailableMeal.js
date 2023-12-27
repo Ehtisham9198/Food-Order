@@ -1,7 +1,8 @@
 import react from 'react';
 import classes from './AvailableMeal.module.css';
 import Card from '../UI/Card'
-import MealItem from './MealItem/MealItem';
+import MealItem from './MealItem/MealItem'
+
 const Meals = [
     {
     title: "Biryani",
@@ -24,7 +25,7 @@ const Meals = [
     price: 499,
     },
 ];
-const Available_Meals=( )=>{
+const AvailableMeals=( )=>{
     const meals_item = Meals.map((Meals)=> <MealItem title={Meals.title} description={Meals.description} price={Meals.price}/>);
     return(
         
@@ -37,4 +38,4 @@ const Available_Meals=( )=>{
     )
 };
 
-export default Available_Meals;
+export default AvailableMeals;

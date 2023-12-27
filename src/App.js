@@ -1,7 +1,7 @@
 import './App.css';
 import Header from './Components/Layout/Header';
 import Meals from './Components/Meals/Meals';
-import Available_Meals from './Components/Meals/Available_Meal';
+import AvailableMeals from './Components/Meals/AvailableMeal';
 import { Fragment } from 'react';
 import Cart from './Components/Cart/Cart';
 import { useState } from 'react';
