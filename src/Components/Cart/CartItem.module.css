@@ -1,0 +1,66 @@
+.cart-item{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px rgb(248, 78, 78) solid;
+    margin-bottom: 10px;
+    position: relative;
+
+}
+.action{
+    position: relative;
+    top: -30px;
+    right: 0;
+    text-align: right;
+    font-size: large;
+    margin-bottom: -10px;
+
+
+}
+.Remove{
+    cursor: pointer;
+    background-color: rgb(248, 220, 220);
+    border-radius: 5px;
+    color:rgb(8, 8, 8)  ;
+    border: thin;
+    width: 25px;
+    padding: 0;
+    height: 20px;
+    border:rgb(243, 5, 5);
+    box-shadow: 0 2px 3px;
+}
+.Add{
+    cursor: pointer;
+    margin-left: 8px;
+    background-color:  rgb(248, 220, 220);
+    border-radius: 5px;
+    color: rgb(5, 5, 5) ;
+    width: 25px;
+    padding: 0;
+    height: 20px;
+    border:rgb(243, 5, 5);
+    border: thin;
+    box-shadow: 0 2px 3px;
+}
+.Remove:hover,
+.Add:hover{
+    background-color: #641e03;
+    color: rgb(249, 247, 247);
+}
+
+.price{
+    color:  #641e03;
+    font-weight: bolder;
+    position: absolute;
+    margin-top: -13px;
+    font-size:medium;
+
+}
+.amount{
+    margin-left: 100px;
+    color:  #641e03;
+    margin-top: -15px;
+    position: absolute;
+ 
+}
+

@@ -1,0 +1,22 @@
+.summary{
+    background-color: rgb(64, 64, 65);
+    border-radius: 15px ;
+    width: 550px;
+    height: 200px;
+    padding-left: 16px;
+    padding-right: 10px;
+    position: absolute;
+    top: 250px;
+    left: 30%;
+    right: 30%;
+    box-shadow: 0 5px 5px rgba(10, 10, 10, 0.321);
+    color: aliceblue;
+    padding-top: 10px;
+   
+}
+body{
+    background-color:rgb(64, 64, 65);
+}
+.delicious{
+    text-align: center;
+}
