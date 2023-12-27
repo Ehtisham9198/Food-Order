@@ -1,8 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import classes from './HeaderCartButton.module.css'
-import Input from "../UI/Input";
 import CartContex from "../Store/Cart-Contex";
-import Cart from "../Cart/Cart";
 
 
 const HeaderCartButton = (props) => {
@@ -28,7 +26,7 @@ const HeaderCartButton = (props) => {
     return ()=>{
       clearTimeout(TimeRanges);
     }
-  }, [items])
+  }, [items,cartCtx.items.length])
 
   return (
     <button className={btnclasses} onClick={Carthandle}>

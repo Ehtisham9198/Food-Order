@@ -1,4 +1,3 @@
-import react from 'react';
 import classes from './MealItem.module.css';
 import MealItemForm from './MealItemForm';
 import { useContext } from 'react';

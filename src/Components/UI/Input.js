@@ -1,6 +1,4 @@
 import classes from './Input.module.css';
-import HeaderCartButton from '../Layout/HeaderCartButton';
-import { useRef } from 'react';
 import React from 'react';
 
 const Input = React.forwardRef((props,ref) => {

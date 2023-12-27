@@ -1,4 +1,3 @@
-import react from 'react';
 import AvailableMeals from './AvailableMeal';
 import MealSummary from './MealSummary';
 import { Fragment } from 'react';

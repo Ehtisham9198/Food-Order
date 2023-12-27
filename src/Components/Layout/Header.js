@@ -1,4 +1,4 @@
-import react, { Fragment } from 'react';
+import { Fragment } from 'react';
 import foodimage from '../../Assests/food.jpeg';
 import classes from './Header.module.css';
 import HeaderCartButton from './HeaderCartButton';
