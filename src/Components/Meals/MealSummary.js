@@ -1,5 +1,5 @@
 import React from "react";
-import classes from './Meal_Summary.module.css'
+import classes from './MealSummary.module.css'
 
 
 const Meal_Summary=()=>{

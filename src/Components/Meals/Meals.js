@@ -1,6 +1,6 @@
 import react from 'react';
-import Available_Meals from './Available_Meal';
-import Meal_Summary from './Meal_Summary';
+import Available_Meals from './AvailableMeal';
+import Meal_Summary from './MealSummary';
 import { Fragment } from 'react';
 
 const Meals=()=>{

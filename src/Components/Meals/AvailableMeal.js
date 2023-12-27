@@ -1,5 +1,5 @@
 import react from 'react';
-import classes from './Available_Meal.module.css';
+import classes from './AvailableMeal.module.css';
 import Card from '../UI/Card'
 import MealItem from './MealItem/MealItem';
 const Meals = [
